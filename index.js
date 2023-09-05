@@ -45,7 +45,7 @@ let block = document.querySelector("#block");
                         -el.pric 
                         nshacMirq.pop( ) 
                         chkmirq.innerHTML = [...nshacMirq   ] 
-                        sum -= el.pric ; 
+                        sum -= el.pric ;  
                     } 
                     y = this.checked? ++y : --y  
                     boxdiv.innerHTML = y  
