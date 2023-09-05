@@ -1,0 +1,59 @@
+<!doctype html> 
+<html> 
+    <head> 
+        <title>Task1</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <meta charset="utf-8"> 
+    </head> 
+    <body id="body"> 
+		
+
+
+        <button id="formbutton"> ԱՎԵԼԱՑՆԵԼ ՆՈՐ ՄԻՐՔ </button> 
+        <div id="formBlock"> 
+        <h4> ՆՈՐՐ ՄԻՐԳ </h4> 
+        <form id="costum-form" > 
+            <label> ՀԱՄԱՐ </label> 
+            <input type="number" name="id" value="17" class="formInput"> <br /> <br />  
+            <label> ՄԻԳԻ ԱՆՈՒՆ  </label> 
+            <input type="text" name="anun"  class="formInput" /> <br /> <br /> 
+            <label> ՄԻԱԿՈՐԻԶ ԿԱՄ ԲԱԶՄԱԿՈՐԻԶ </label> 
+            <input type="text" name="sort" class="formInput" /> <br /> <br /> 
+            <label> ԳԻՆԸ </label> 
+            <input type="number" name="pric" class="formInput" value=1400 /> <br /> <br /> 
+            <label> նկար </label> 
+            <input type="text" name="im" class="formInput" /> <br /> <br /> 
+            <label> ԶԵԽՉ </label>  
+            <select id="optionCh"> 
+                <option value="tru"> tru </option> 
+                <option value="fals"> fals </option>
+            </select>
+            <input type="text" name="zxc" class="formInput" /> <br /> <br /> 
+            <textarea id="subject" name="txt" placeholder=" ՄՐԳԻ ՄԱՍԻՆ ինֆո.." style="height:200px; width: 95%;"></textarea> 
+            <button type="submit" id="addB"> ԱՎԵԼԱՑՆԵԼ </button> 
+            </form> 
+            </div> 
+            <button id="click"> ՑՈՒՅՑ ՏԱԼ ԲԱԼՈՐ </button> 
+            <button id="clickk"> ԶԵԽՉ </button> 
+            <br /> 
+                <span id="luys"> ԳՈՒՅՆԸ ՓՈԽԵԼ </span><input type="checkbox" id="ld"> 
+                <br /> <br />  
+            <label> ցույց կտա նշած գնից բարձր ապրանքները </label> 
+            <input type="text" id="inpu" placeholder=" գրել գինը"/> 
+            <br /> <br /> 
+                <label> գրում նք մեր ուզած մրգի անունը  </label>    
+                <input type="text" id="inpuAnun" placeholder=" հայատառ մրգի անուն " /> 
+                <br /> <br /> 
+                
+                <h4>  նշած մրքի քանակ    <p style="display: inline " id="boxdiv"> 0 </p>  </h4> 
+                <h4 id="z">  ՆՇԱԾ մրքի անունը   <p style="display: inline " id ="chkmirq" > </p> </h4> 
+                <h4  > ՆՇԱԾ ԱՊՌԱՆՔՆՐԻ ԳՈՒՄԱՐԸ ԿԱԶՄՈՒՄԱ <span id="ti"  >   ԴՐԱՄ  </span> </h4> 
+
+
+
+            <div id="block"> 
+                <div id="bol"> </div>  
+            </div> 
+        <script src="index.js"></script>  
+	</body> 
+</html> 

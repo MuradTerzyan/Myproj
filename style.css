@@ -1,0 +1,112 @@
+#block{ 
+    display: flex; 
+    height: 600px; 
+    flex-wrap: wrap; 
+} 
+
+.bb {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+} 
+.bb:hover {
+opacity: 0.7;
+} 
+
+
+
+
+/* 0000000000000000000000000000  */ 
+.list { 
+box-shadow: 4px 8px 8px 0 rgba( 0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial; 
+margin-top: 10px; 
+} 
+
+
+
+/* 000000000000000000000 */ 
+.anun{
+color: grey;
+font-size: 22px;
+} 
+
+/* 0000000000000000000 */ 
+.pric{
+color: grey;
+font-size: 22px;
+} 
+
+.nkari{ 
+    width: 240px; 
+    height: 30px; 
+    background: aqua; 
+}
+.nkar2{ 
+    width: 100%; 
+    height: 100%; 
+
+} 
+#lab{ 
+    width: 240px; 
+    height: 180px; 
+    border: 1px solid pink; 
+} 
+
+
+#formBlock{ 
+    width: 480px; 
+    /* height: 300px;  */ 
+    border: 1px solid black; 
+    display: none ; 
+} 
+
+#formbutton{ 
+    background-color:  #555;
+    color: white;
+    padding: 16px 20px;
+    border: none; 
+    cursor: pointer;
+    bottom: 23px;
+    right: 28px;
+    width: 280px; 
+    font-size: 16px; 
+} 
+.formInput{ 
+    width: 90%;
+    padding: 8px; 
+} 
+#addB{ 
+    background: #555 ; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border: none ; 
+} 
+#click , #clickk{ 
+    background: #555 ; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border: none ; 
+} 
+
+
+#click:hover, #clickk:hover, #addB:hover, #formbutton:hover { opacity: 0.4;} 
